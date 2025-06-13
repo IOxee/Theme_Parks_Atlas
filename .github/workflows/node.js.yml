@@ -1,0 +1,27 @@
+name: Node.js CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: 'npm'
+      - run: npm ci
+      - run: |
+          if npm run | grep -q "lint"; then
+            npm run lint
+          elif npm run | grep -q "test"; then
+            npm test
+          else
+            echo "No lint or test script found"
+          fi
+
