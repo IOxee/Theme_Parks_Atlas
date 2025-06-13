@@ -53,6 +53,10 @@ Special thanks to all APIs and libraries that make Theme Parks Atlas possible:
 
 😞🙏 This project is for educational purposes only. I am not responsible for any misuse or damage caused by this program. Use it at your own risk.
 
+## Security
+
+For information on reporting vulnerabilities and details about supported releases, see our [security policy](./SECURITY.md).
+
 ## License
 MIT License
 
