@@ -14,6 +14,13 @@ Theme Parks Atlas allows you to search and query parks in Spain and nearby based
 * Expected visitor statistics for the current day.
 * Near real-time queue status of attractions (when supported by the public API).
 
+## Installation
+
+1. Ensure **Node.js 18** is installed. If you use `nvm`, run `nvm use` to match
+   the version in `.nvmrc`.
+2. Run `npm install` to install dependencies.
+3. Start the CLI with `npm start`.
+
 ## Features
 
 * [x] Search parks by name or location
