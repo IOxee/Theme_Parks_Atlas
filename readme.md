@@ -14,6 +14,11 @@ Theme Parks Atlas allows you to search and query parks in Spain and nearby based
 * Expected visitor statistics for the current day.
 * Near real-time queue status of attractions (when supported by the public API).
 
+## Setup
+
+1. Copy `.env.example` to `.env`.
+2. Adjust the environment variables in `.env` to match your configuration.
+
 ## Features
 
 * [x] Search parks by name or location
